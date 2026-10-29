@@ -199,7 +199,7 @@ namespace Mandelbrot
         /// </summary>
         /// <param name="x">Real number.</param>
         /// <param name="y">Imaginairy number.</param>
-        /// <returns>Complex number.</returns>
+        /// <returns>Iteration count used to colour the point.</returns>
         private int GiveMandelNumber(double x, double y)
         {
             var mandelNumber = 0;
